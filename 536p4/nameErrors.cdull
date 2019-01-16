@@ -1,0 +1,19 @@
+int a;int a;
+bool d;bool d;
+void k;void k;
+int checkGlobal;
+int test;
+int invalidType;
+
+struct test {int test;};
+struct c {int checkGlobal;};
+struct test0 damn;
+struct invalidType invalid; 
+
+int a(int a, int a){}
+int a(){bool f;}
+
+int test2(int test2, bool test2){test4.z = 5;}
+
+void test3;
+

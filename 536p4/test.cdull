@@ -1,0 +1,3 @@
+bool b;
+struct test {int a;bool b;void c;};
+int a(int a){shit.fuck.a = 5;}

@@ -1,0 +1,93 @@
+import java.util.*;
+
+public class Sym {
+	private String type;
+
+	public Sym(String type) {
+		this.type = type;
+	}
+
+
+	public String getType() {
+		return type;
+	}
+
+	public String toString() {
+		return type;
+	}
+
+}
+
+class StructDefSym extends Sym {
+	private String type;
+	private SymTable structList;
+
+	public StructDefSym(SymTable s, String type) {
+		super(type);
+		this.type = type;
+        this.structList = s;
+	}        
+
+	public String getType() {
+		return type;
+	}
+
+	public String toString() {
+		return type;
+	}
+
+	// is the sym table field gonna change when the ast.java sym table changes? 
+	public SymTable getList() {
+		return this.structList;
+	}
+}
+
+
+class StructDeclSym extends Sym {
+	private String name;
+	private StructDefSym body;
+
+	public StructDeclSym(StructDefSym body, String name) {
+		super(name);
+		this.name = name;
+		this.body = body;
+	}        
+
+	public String getName() {
+		return this.name;
+	}
+
+	public StructDefSym getBody() {
+		return this.body;
+	}
+}
+
+class FnSym extends Sym {
+	private String type;
+	private Sym retType;
+    private List<String> formals;
+
+	public FnSym(String type) {
+		super(type);
+		this.type = type;
+	}        
+
+	public String getType() {
+		return type;
+	}
+
+	public String toString() {
+		return type;
+	}
+
+    public void addFormal() {
+        
+
+	public Sym getReturn() {
+		return this.retType;
+	}     
+
+	public void setReturn(Sym ret) {
+		this.retType = ret;      
+	}
+}

@@ -1,0 +1,14 @@
+int main(){
+     int haha;
+     int hi;                               //Multiply declared identifier
+     struct Badger badger01;
+     struct Madison madison01;
+     struct america us;                     //Invalid name of struct type
+     x.why = 2016;                          //Dot-access of non-struct type
+     someone.y = 5;                         //Undeclared Identifier
+     badger01.a  = 2015;
+     badger01.zzzzzzz = "Wrong";            //Invalid struct field name
+     badger01.zzzzzzz.zzzzzzz = "Also Wrong"; //Invalid struct field name
+     badger01.a.a.a = 2017;                 // Should print only one "Dot-access of non-struct type"
+     sssssssss = 5;                         //Undeclared identifier
+ }

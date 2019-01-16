@@ -1,0 +1,93 @@
+struct Point{
+    int x;
+    int y;
+};
+
+int f(int x, bool b) {
+}
+
+void g() {
+    int a;
+    bool b;
+    struct Point p;
+    (p(Point)).x(int) = a(int);
+    b(bool) = (a(int) == 3);
+    f(int,bool->int)((a(int) + ((p(Point)).y(int) * 2)), b(bool));
+    g(->void)();
+}
+
+struct struct1{
+    int num;
+};
+
+struct struct2{
+    struct struct1 aa;
+};
+
+struct struct3{
+    struct struct2 bb;
+};
+
+int wisconsin() {
+    struct struct3 cc;
+    (((cc(struct3)).bb(struct2)).aa(struct1)).num(int) = 608;
+}
+
+struct Badger{
+    int num1;
+    int num2;
+};
+
+int foo(int x, bool b) {
+}
+
+void ow() {
+    int a;
+    int b;
+    struct Badger badger1;
+    (badger1(Badger)).num1(int) = a(int);
+    (badger1(Badger)).num2(int) = b(int);
+    b(int) = 2;
+    a(int) = 3;
+    foo(int,bool->int)((b(int) + ((badger1(Badger)).num2(int) * 2)), b(int));
+}
+
+int x;
+int b;
+bool z;
+struct Madison{
+    struct Badger badger2;
+};
+
+int ohio(int ccc) {
+    struct Madison m;
+    int x;
+    int y;
+    int z;
+    ((m(Madison)).badger2(Badger)).num1(int) = ccc(int);
+    ((m(Madison)).badger2(Badger)).num1(int) = 608;
+    z(int) = (((m(Madison)).badger2(Badger)).num2(int) * 2);
+    if ((b(int) == (-1))) {
+        x(int) = (4 + y(int));
+        while ((x(int) < 10)) {
+            x(int) = (y(int) * 2);
+        }
+    }
+    else {
+        x(int) = 2;
+        y(int) = 1;
+    }
+}
+
+int m(int x, bool b) {
+    if ((z(bool) == false)) {
+        int xx;
+        bool yy;
+    }
+    else {
+        int yyy;
+        bool zzz;
+    }
+    return 608;
+}
+

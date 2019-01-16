@@ -1,0 +1,93 @@
+struct Point {
+    int x;
+    int y;
+};
+int f(int x, bool b) { }
+void g() {
+    int a;
+    bool b;
+    struct Point p;
+    p.x = a;
+    b = a == 3;
+    f(a + p.y*2, b);
+    g();
+}
+
+struct struct1{
+       int num;
+};
+
+struct struct2{
+        struct struct1 aa;
+};
+struct struct3{
+       struct struct2 bb;
+};
+
+int wisconsin()
+{
+ struct struct3 cc;
+ cc.bb.aa.num = 608;
+}
+
+struct Badger {
+    int num1;
+    int num2;
+};
+
+
+int foo(int x, bool b) {
+}
+
+void ow() {
+    int a;
+    int b;
+    struct Badger badger1;
+    badger1.num1 = a;
+    badger1.num2 = b;
+    b = 2;
+    a = 3;
+    foo(b + badger1.num2*2, b);
+}
+
+int x;
+int b;
+bool z;
+
+struct Madison {
+   struct Badger badger2;
+};
+
+int ohio(int ccc) {
+    struct Madison m;
+    int x;
+    int y;
+    int z;
+    m.badger2.num1 = ccc;
+    m.badger2.num1 = 608;
+    z=(m.badger2.num2*2);
+    
+    if (b == -1) { 
+        x = 4+y; 
+        while (x<10) { 
+            x = y*2; 
+        } 
+    } else {
+    	x = 2;
+        y = 1;
+    }
+}
+
+int m(int x, bool b) {
+    if (z == false) {
+    	int xx;
+    	bool yy;
+    }else {
+    	int yyy;
+    	bool zzz;
+    }
+    return 608;
+}
+
+
+

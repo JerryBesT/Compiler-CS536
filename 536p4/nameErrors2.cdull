@@ -1,0 +1,88 @@
+
+int x;
+bool x;                                     //Multiply declared identifier
+int ab;
+void ab;                                    // Non-function declared void & Multiply declared identifier
+
+struct Badger {
+   void oops;                               //Non-function declared void
+   int a;
+   int xyz;
+   bool a;                                  //Multiply declared identifier
+   void a;                                  //Non-function declared void & Multiply declared identifier
+};
+
+struct Madison {
+   struct Badger badg;
+   struct Basket bask;
+};
+
+int wisconsin(int a, void b) {              //Non-function declared void
+    struct Badger badger01;
+    void aa;                                //Non-function declared void
+    int x;
+    int y;
+    go = badgers;                           //both are undeclared identifiers
+    aa = false;                             //Undeclared Identifier
+    badger01.a = a;
+    badger01.oops = oops;                   //Invalid struct field name, Undeclared Identifier
+    tree.branch.zzzz = 5;                   //Undeclared Identifier
+    if (badgersWin == 2015) {               //Undeclared Identifier
+        int champion;
+        void championship;                  //Non-function declared void
+        x = 2015*Nooooo;                    //Undeclared Identifier
+        while (xyzzz) {                     //Undeclared Identifier
+            y = x.b;                        //Dot access of non-struct type
+            y = x==badger01.bask;           //Invalid struct field name
+        } 
+    } 
+    else {
+        welcome = 2016;                     //Undeclared Identifier
+    }
+    
+    welcomeSpring = false;                  //Undeclared identifier
+}
+
+int hiCompiler() {
+    int xdsdsdsds;
+ }
+
+ int hiCompiler(int var1) {                 //Non-function declared void
+    struct goodMorning var1;                //Multiply declared identifier, Invalid struct field name
+    bool var1;                              //Multiply declared identifier
+    struct goodMorning no;                  //Invalid struct field name
+ }
+
+
+int main(int hi, int nice, bool hi){    //Multiply declared identifier
+
+     int haha;
+     int hi;                               //Multiply declared identifier
+     struct Badger badger01;
+     struct Madison madison01;
+     struct america us;                     //Invalid name of struct type
+     x.why = 2016;                          //Dot-access of non-struct type
+     someone.y = 5;                         //Undeclared Identifier
+     badger01.a  = 2015;
+     badger01.zzzzzzz = "Wrong";            //Invalid struct field name
+     badger01.zzzzzzz.zzzzzzz = "Also Wrong"; //Invalid struct field name
+     badger01.a.a.a = 2017;                 // Should print only one "Dot-access of non-struct type"
+     sssssssss = 5;                         //Undeclared identifier
+     n = 50;
+     while (true) {
+        struct Badger badger02;
+        struct Basket badger02;             //Invalid name of struct type & Multiply declared identifier
+        int badger02;                       //Multiply declared identifier
+     }
+     
+     badger01.a.a.a--;                        // Should print only one "Dot-access of non-struct type"
+     badger01.aaaaaa.aaaaab.aaaaaabbb = 2016; // Should print only one "Invalid struct field name"
+     a.ab.abc.abcd = 2016;                  // Should print only one "Undeclared identifier"
+     
+     haha = whoareyou.a;                    //Undeclared identifier
+     tree.abababa = tree.badger02;          //Undeclared identifier
+     tree.branch++;                         //Undeclared identifier
+
+    
+ }
+
