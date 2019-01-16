@@ -1,0 +1,63 @@
+bool
+int
+void
+true
+false
+struct
+cin
+cout
+if
+else
+while
+return
+{
+}
+(
+)
+;
+,
+.
+<<
+>>
+++
+--
++
+-
+*
+/
+!
+&&
+||
+==
+!=
+<
+>
+<=
+>=
+=
+
+bool b = true;
+if(b) {
+    return true;
+}
+else {
+    return false;
+}
+int counter = 100;
+while(true) {
+    if(counter - 2 == 0)
+        counter++;
+    else if(counter + 2 != 0)
+        counter--;
+}
+void main() {
+    /// this is printing
+    cout<<"in";
+    ## this is scanning
+    cin>>"out";
+}
+struct Person {
+    bool isMale = false;
+    int age = 10;
+}
+
