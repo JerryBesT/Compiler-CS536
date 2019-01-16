@@ -1,0 +1,63 @@
+int test0(int ok){k = "abcbsid";}
+
+int a;bool b;void c;
+
+struct foo{ int e;bool g;void h;};
+
+int max(int a,bool b,void c){int a;bool c;void d;a = 5;c = true;k.hah.yikes.foo = false;}
+
+bool test(int k){k++;k--;}
+
+void test2(bool notbool){if(k = true){int a;a = 5;}}
+
+int test3(void notint){if(k = true){int a;a = 4;}else{int b;b = 5;}}
+
+void test4(void notbool){while(k = false){int a;a = 4;}}
+
+void test5(void hey){repeat(k = true){int a;a = 4;} return hey; return;hey(stop, calling, me);}
+
+void test6(void damn){int hey; hey = 2 + 4;}
+
+void finalTest(void finally){int notbool;bool notint;notint = !notint;notbool =-notbool;notbool=2*2;notbool=2/2;notbool=true&&true;notbool=false||false; notbool=1==1;notbool=1!=2;notbool=1<2;notbool=2>1;notbool=1<=1;notbool=1>=1;}
+
+
+void test8(){if (b == -1) { x = 4+3*5-y; while (c) { y = y*2+x; } } else { x = 0; }}
+
+int x;
+int y;
+int x2; int y2; int z;
+bool q;
+void e;
+bool q2; void e2;
+struct node head;
+struct node{int first; bool second; struct node head;};
+int function(){}
+int function(){return;}
+int foo(int one){}
+int boo(int one, bool two){}
+int boo(int one, bool two, void three){}
+int foo(int one){return;}
+int boo(int one, bool two){return;}
+int boo(int one, bool two, void three){return;}
+void test(){
+x = z;
+this = that;
+node.head = a;
+node.head = a+b + c;
+h++;
+h.c--;
+w = a*c+d;
+p=a*b*c/h-2+10*3;
+}
+void foo(int x, int y, bool now){if(b==-1){while(c){y=y*2+x;}}else{x=0;}}
+void testAgain(){
+if(a==b){int x;}
+if(a>b){bool z;}
+if(a<b){five = 5;}
+if(a>=b){a = 8*9/2*2;}
+if(a<=b){u++;}
+}
+void thisCrap(int x, bool go){
+if(a<0){if(x==y){x=2+2;}else{if(z>y){y=z*y;}if(!var){var=false;x++;call();greeting="Why hello there?!";}else{var = true;}}}
+}
+
