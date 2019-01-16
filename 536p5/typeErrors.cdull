@@ -1,0 +1,106 @@
+int a;
+bool b;
+bool d;
+struct Pointer {int p;};
+struct Pointer2 {int a;};
+int f1(int a, bool b){}
+void f2(){}
+void f3(){}
+int f4(){return;}
+void f5(){return 5 + true;}
+int f6(){return true;}
+bool f7(int a){}
+void f(){
+    struct Pointer ptr;
+    struct Pointer2 ptr2;
+    cout << f1;
+    cout << Pointer;
+    cout << ptr;
+    cout << f2();
+    cin >> f1;
+    cin >> Pointer;
+    cin >> ptr;
+
+    a();
+    b();
+    ptr();
+    a(1);    
+    
+    f1(5, true, false);    
+    f1(5, 5 || 5);    
+    f1(true, true);
+
+    d++;
+    d--;
+    b = false + false + true;
+    b = true - true - true;
+    b = true / true / true;
+    b = true * true * true;
+    b = -(-(-(-(true))));
+
+    a = 5 < 5;
+    a = (5 < 5) < 5;
+    a = 5 > 5;
+    a = (5 > 5) > 5;
+    a = 5 <= 5;
+    a = (5 <= 5) <= 5;
+    a = 5 >= 5;
+    a = (5 >= 5) >= 5;
+
+    a = !(5 || 5); 
+    a = 5 && 5 && 5;
+    a = 5 || 5 || 5;
+    b = (f2 && ptr)||(a || d);
+     
+
+
+    if("DD"){}else{}
+    while("didi"){}
+    repeat(true){}
+    repeat(false){}
+    repeat(ptr){}
+
+
+
+    if(5 || 5 || 6){}else{}
+    if(5 && 5 && 5){}else{}
+    if(!!!5){}else{}
+    while(5 || 5 || 6){}
+    while(5 && 5 && 6){}
+    while(!!8){}
+    b = true && (false || 3);
+
+    a = true;
+    f1 = 5;
+    Pointer = 10;
+    ptr = 10;
+    a = true + 1 + 2 + b;
+    b = 2;
+
+    a = f2() == f3(); 
+    a = f2() != f3(); 
+    a = f2 == f3; 
+    a = f2 != f3; 
+    a = f2 == f3; 
+    a = f2 != f3; 
+    a = Pointer2 == Pointer;
+    a = Pointer2 != Pointer;
+    a = ptr2 == ptr;
+    a = ptr2 != ptr;
+    
+    f2 = f3;
+    Pointer = Pointer;
+    ptr = ptr;        
+
+    cout << Pointer + 1;          // P + 1 is an error; the write is OK
+    a = (true + 3) * 4;         // true + 3 is an error; the * is OK
+    a = true && (false || 3);   // false || 3 is an error; the && is OK
+    f("a" * 4);            // "a" * 4 is an error; the call is OK
+    a = 1 + ptr();               // p() is an error; the + is OK
+    a = (true + 3) == 5;        // true + 3 is an error; the == is OK
+                       // regardless of the type of x
+    a = true + "hello";    // one error for each of the non-int operands of the +
+    a = 1 + f7(true);       // one for the bad arg type and one for the 2nd operand of the +
+    a = 1 + f7(1, 2);       // one for the wrong number of args and one for the 2nd operand of the +
+}
+

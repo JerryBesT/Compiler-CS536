@@ -1,0 +1,92 @@
+struct Point {
+    int x;
+    int y;
+};
+int f(int x, bool b) { }
+void g() {
+    int a;
+    bool b;
+    struct Point p;
+    a = 1;
+    p.x = a;
+    p.y = 2;
+    b = (a == 3);
+    f(a + ((p.y)*2), b);
+    g();
+}
+
+int f2(){ }
+struct hi {
+       int num;
+       int num2;
+       struct Point pt1;
+};
+struct testScoping2{
+       int x;
+       bool y;
+       struct Point pt;
+};
+int x;
+bool y;
+struct Point pt;
+bool testScoping(bool flag) {
+       int x;
+       bool y;
+       struct Point pt;
+       struct hi hi1;
+       bool a;
+       bool b;
+       f2();
+       pt.x = 233;
+       pt.y = pt.x * 2;
+       hi1.num = (pt.x - pt.y / 2);
+       hi1.num2 = - hi1.num;
+       a = true;
+       b = false;
+       b = a || b;
+       b = a && b;
+       b = b != b;
+       b = b == b;
+       repeat(5) {
+           if(((hi1.num)*1/2)>0){ return b;}
+           else{}
+       }
+       while(pt.x >= 0 && pt.y <=0) { 
+       if (hi1.num + hi1.num2 > 0 && hi1.num2 < 0) {
+           pt.x++;
+           pt.y--;
+           cout <<"no";
+           f(x,y);
+           return flag;
+       } else {f(x,y);
+       	   flag = !(a); 
+	   cin>>flag;
+           return flag;
+       }
+       }
+}
+int foo(int x, bool b) {
+  return 5+(x+2*608);
+}
+struct struct1{
+       int num;
+};
+
+struct struct2{
+        struct struct1 aa;
+};
+struct struct3{
+       struct struct2 bb;
+};
+int test(bool haha)
+{
+ int wow;
+ struct struct3 cc;
+ cc.bb.aa.num = 608;
+ cout << "ook!!!";
+ cin >> haha;
+ if (false || false && haha && haha|| true) {
+        wow = foo(608*338/2016/2+608-608,(2-10!=0) && haha);
+    }
+ return test(haha);
+}
